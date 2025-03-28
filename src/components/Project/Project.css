@@ -1,0 +1,40 @@
+.project{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+   
+}
+.gallery img{
+    gap: 20px;
+    width: 23%;
+    border-radius: 10px;
+    
+}
+
+.project h3{
+    font-weight: 600;
+    font-size: 36px;
+    color: #000f38;
+    align-content:center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width:800px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width:48% ;
+        margin-bottom: 25px;
+    }
+    
+}
